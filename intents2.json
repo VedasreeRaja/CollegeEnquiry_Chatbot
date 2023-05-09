@@ -1,0 +1,91 @@
+{"intents": [
+  {"tag": "greetings",
+  "patterns": ["hello","hey","hi","good day","Greetings","what's up?","how is it going?","Hai","Hi","Hello"],
+  "responses": ["Hello!","Hey!","What can I do for you?","Hai. How can I help you?"]
+  },
+
+  {"tag": "name",
+  "patterns": ["what is your name","name","what's your name","who are you","what should I call you"],
+  "responses": ["You can call me Bolot","I'm Bolot","I'm Bolot your virtual assistant"]
+  },
+
+  {"tag": "courses",
+  "patterns": ["what courses are available", "how many courses are there in this college","tell me about the courses"],
+  "responses": ["Bannari Amman Institute of Technology provides various undergraduate and postgraduate degrees of various domains. Refer to the list below for further details\nB.E. - AERONAUTICAL ENGINEERING\nB.E. - MECHANICAL ENGINEERING\nB.E. - ELECTRONICS AND INSTRUMENTATION ENGINEERING\nB.E. - ELECTRONICS AND COMMUNICATION ENGINEERING\nB.E. - ELECTRICAL AND ELECTRONICS ENGINEERING\nB.E. - COMPUTER SCIENCE AND ENGINEERING\nB.E. - BIOMEDICAL ENGINEERING\nB.E. - MECHATRONICS\nB.E. - INFORMATION SCIENCE AND ENGINEERING\nB.E. - AUTOMOBILE ENGINEERING\nB.E. - CIVIL ENGINEERING\nB.E. - AGRICULTURE ENGINEERING\nB.Tech. - COMPUTER TECHNOLOGY\nB.Tech. - ARTIFICIAL INTELLIGENCE AND DATA SCIENCE\nB.Tech. - COMPUTER SCIENCE AND BUSINESS SYSTEM\nB.Tech. - ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING\nB.Tech. - TEXTILE TECHNOLOGY\nB.Tech. - FASHION TECHNOLOGY\nB.Tech. - FOOD TECHNOLOGY\nB.Tech. - BIOTECHNOLOGY\nB.Tech. - INFORMATION TECHNOLOGY\nM.E. - STRUCTURAL ENGINEERING\nM.E. - SOFTWARE ENGINEERING\nM.E. - EMBEDDED SYSTEMS\nM.E. - INDUSTRIAL AUTOMATION & ROBOTICS\nM.E. - COMPUTER SCIENCE AND ENGINEERING\nM.E. - COMMUNICATION SYSTEMS\nM.E. - INDUSTRIAL SAFETY ENGINEERING\nM.E. - POWER ELECTRONICS AND DRIVES\nM.Tech. - BIOTECHNOLOGY\nM.B.A. - MASTER OF BUSINESS ADMINISTRATION\nPh.D. / M.S. (By Research) - All Departments\n"]
+  },
+
+   {"tag": "courseDuration",
+  "patterns": ["how long will be BE or ME courses", "how long will it take to complete BE or ME courses", "what is the duration of the courses"],
+  "responses": ["The undergraduate programmes are four-years long, whereas the master's degrees are two-year long. Ph-D and M.S duration are as per the University norms."]
+  },
+
+   {"tag": "Location",
+  "patterns": ["location","where is it located","what is the location of the college","address"],
+  "responses": ["The address of the college is Bannari Amman Institute of Technology, Sathy - Bhavani State Highway , Alathukombai, Sathyamangalam, Tamil Nadu 638401"]
+  },
+
+  {"tag": "semesters",
+  "patterns": ["how many semesters are there in a year","how many semesters one should study in a year"],
+  "responses": ["There are two semesters in a year."]
+  },
+
+  {"tag": "semDuration",
+  "patterns": ["how many months are there in a semester","how long will be a single semester"],
+  "responses": ["The single semester will be around 4 months."]
+  },
+
+  {"tag": "studentRequirements",
+  "patterns": ["What are the student requirements for admission","Entry requirements","Admission requirements"],
+  "responses": ["The admission is completely based on the merit list of TNEA Counselling. Once, the seats are allotted in the counselling, the admission process will proceed."]
+  },
+
+  {"tag": "classes",
+  "patterns": ["how many classes will be there in a day","how long are the classes?"],
+  "responses": ["There may be three or four classes per day. Each class will be of 1 hour."]
+  },
+
+  {"tag": "teachingStyle",
+  "patterns": ["what is the teaching style of this college?","Is the teaching pattern different from other college?","what is the teaching format?","teaching style"],
+  "responses": ["Our college has different teaching patterns than other colleges of Tamil Nadu. We adopt a British teaching methodology, following the LTW techniques which stands for Lecture, Tutorial and Workshop.\nYou can provide us with your contact details and our counselors shall reach out to you and provide you with further details."]
+  },
+
+  {"tag": "exams",
+  "patterns": ["what are the exams like?","What is the exam pattern"],
+  "responses": ["There are formative assessments daily which will be considered for internal marks. There are also Periodic Tests, Reports and assignments that will be considered for the mark allotment. "]
+  },
+
+  {"tag": "hours",
+  "patterns": ["what are your hours","when are you guys open","what your hours of operation"],
+  "responses": ["You can message us here at any hours. But our college premises will be open from 09:00 am to 05:00 pm only."]
+  },
+
+  {"tag": "funActivities",
+  "patterns": ["will there be any extra curriculum activities?","does the college conducts any fun program","what are the features"],
+  "responses": ["Yes, Of course. Our college not only provides excellent education but also encourage students to take part in different curriculum activities. The college conducts yearly programs like Sports meet, Carnival, Holi festival, and Christmas. \n Also our college has basketball court, badminton court, table tennis, chess, carrom board and many more refreshment zones."]
+  },
+
+  {"tag": "facilities",
+  "patterns": ["what facilities are provided by the college?","what are the facilities of college for students", "what are the college infrastructures ","features"],
+  "responses": ["With excellent education facilities, Our College provides various other facilities like 24 hours internet, library, classes with AC, discusson room, canteen, parking space, and student service for any students queries."]
+  },
+
+  {"tag": "fee",
+  "patterns": ["how much is the college fee","what is the fee structure"],
+  "responses": ["Course B.E\nAdmission fee = RS 10,000\nYear 1\n University fee = RS 55,000 Hostel fee = RS 86,000 Tuition fee = RS 55,000 Total fee= RS 196,000\nYear 2\n University fee = 45,000  Hostel fee=RS 86,000 Tuition fee = RS 55,000 Total fee= RS 1,86,000\nYear 3\nUniversity fee = 45,000  Hostel fee=RS 86,000 Tuition fee = RS 55,000 Total fee= RS 1,86,000\n Year 4\nUniversity fee = 45,000  Hostel fee=RS 86,000 Tuition fee = RS 55,000 Total fee= RS 1,86,000 "]
+  },
+
+  {"tag": "goodbye",
+  "patterns": ["cya","See you later","Goodbye","I am leaving","Have a Good Day","bye","see ya"],
+  "responses": ["Sad to see you go :(","Talk you later","Goodbye"]
+  },
+
+  {"tag": "invalid",
+    "patterns": ["","gvsd","asbhk"],
+    "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+  },
+
+  {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure"]
+  }
+]}
